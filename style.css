@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #2e0059, #6a0dad);
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.highlight {
+  color: #ff5ea2;
+}
+
+.controls {
+  margin: 20px 0;
+}
+
+button, select {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#startBtn {
+  background: linear-gradient(to right, #ff5ea2, #ff7f50);
+  color: white;
+  font-size: 20px;
+  padding: 15px 30px;
+  border-radius: 15px;
+}
+
+.tip {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #f1f1f1;
+}
+
+#gameArea {
+  margin-top: 30px;
+}
+
+#textToType {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+#inputArea {
+  width: 60%;
+  height: 100px;
+  font-size: 16px;
+}
+
+.hidden {
+  display: none;
+}

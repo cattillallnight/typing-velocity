@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typing Velocity</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1><span class="highlight">Typing</span>Velocity</h1>
+    <p>Test your typing speed and accuracy!</p>
+
+    <div class="controls">
+      <label>Mode:
+        <select id="mode">
+          <option value="english">English</option>
+          <option value="numbers">Numbers</option>
+        </select>
+      </label>
+      <button id="toggleSFX">SFX</button>
+      <button id="toggleMusic">Music</button>
+    </div>
+
+    <button id="startBtn">🏁 Start Racing</button>
+    <p class="tip">💡 Tip: Focus on accuracy first, speed will come naturally!</p>
+
+    <!-- Khu vực gõ phím -->
+    <div id="gameArea" class="hidden">
+      <p id="textToType"></p>
+      <textarea id="inputArea" placeholder="Start typing here..." disabled></textarea>
+      <p id="result"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
